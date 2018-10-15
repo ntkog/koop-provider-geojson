@@ -1,7 +1,7 @@
 {
-  "name": "koop-provider-geojson",
+  "name": "@lobsterlabs/koop-provider-geojson",
   "version": "1.0.0",
-  "description": "A geojson provider for koop",
+  "description": "A clone of geojson provider for koop",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -26,15 +26,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koopjs/koop-provider-geojson.git"
+    "url": "git+https://github.com/ntkog/koop-provider-geojson.git"
   },
   "bugs": {
-    "url": "https://github.com/koopjs/koop-provider-geojson/issues"
+    "url": "https://github.com/ntkog/koop-provider-geojson/issues"
   },
-  "homepage": "https://github.com/koopjs/koop-provider-geojson",
+  "homepage": "https://github.com/ntkog/koop-provider-geojson",
   "keywords": [
     "koop",
     "provider",
     "geojson"
-  ]
+  ],
+  "publishConfig": {
+    "access" : "public"
+  }
 }
